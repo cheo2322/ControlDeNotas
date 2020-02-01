@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ChildrenPageRoutingModule } from './children-routing.module';
+import { NoticiasPageRoutingModule } from './noticias-routing.module';
 
-import { ChildrenPage } from './children.page';
+import { NoticiasPage } from './noticias.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ChildrenPageRoutingModule
+    NoticiasPageRoutingModule
   ],
-  declarations: [ChildrenPage]
+  declarations: [NoticiasPage]
 })
-export class ChildrenPageModule {}
+export class NoticiasPageModule {}

@@ -17,13 +17,22 @@ const routes: Routes = [
     loadChildren: () => import('./forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
   },
   {
-    path: 'children',
-    loadChildren: () => import('./children/children.module').then( m => m.ChildrenPageModule)
-  },
-  {
     path: 'main',
     loadChildren: () => import('./main/main.module').then( m => m.MainPageModule)
   },
+  /*
+  {
+    path: 'noticias',
+    loadChildren: () => import('./main-tabs/noticias/noticias.module').then( m => m.NoticiasPageModule)
+  },
+  {
+    path: 'circulares',
+    loadChildren: () => import('./main-tabs/circulares/circulares.module').then( m => m.CircularesPageModule)
+  },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./main-tabs/perfil/perfil.module').then( m => m.PerfilPageModule)
+  },*/
 ];
 
 @NgModule({
